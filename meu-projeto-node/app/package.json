@@ -1,0 +1,13 @@
+{
+    "name": "node-env-app",
+    "version": "1.0.0",
+    "description": "App Node.js com variáveis de ambiente",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
+  

@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  web:
+    build: ./app
+    container_name: meu-app-web-novo
+    ports:
+      - "${PORT}:${PORT}"
+    environment:
+      - PORT=${PORT}
+      - DATABASE_NAME=${DATABASE_NAME}
